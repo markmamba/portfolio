@@ -1,0 +1,94 @@
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2% 10%;
+}
+
+.skills-title-container {
+    padding: '5% 20';
+}
+
+.skills-title-text {
+    font-size: 73px !important; 
+    color: rgb(221, 230, 237) !important;
+    text-align: center !important;
+}
+
+.skills-cards-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+.skills-cards-flex-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.skills-card-content-body {
+    width: 400px;
+    background-color: rgb(57, 72, 103); 
+    border: none;
+    box-shadow: 13px 20px 40px rgba(0, 0, 0, 0.5);
+    height: 200px;
+    text-align: center;
+}
+
+.skills-image-icon {
+    width: 150px;
+    height: 150px;
+}
+
+
+@media screen and (max-width: 1440px) {
+    
+  }
+
+/* Media query for screens with a maximum width of 768px */
+@media screen and (max-width: 768px) {
+    .skills-title-container {
+        padding: '2% 10%';
+    }
+
+    .skills-title-text {
+        font-size: 23px !important; 
+        color: rgb(221, 230, 237) !important;
+        text-align: center !important;
+    }
+
+    .skills-cards-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 50px;
+        margin-top: 10%;
+    }
+
+    .skills-cards-flex-container {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .skills-card-content-body {
+        width: 150px !important;
+        background-color: rgb(57, 72, 103); 
+        border: none;
+        box-shadow: 13px 20px 40px rgba(0, 0, 0, 0.5);
+        height: 100px;
+        text-align: center;
+    }
+
+    .skills-image-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .swift-icon {
+        width: 100px;
+        height: 50px;
+    }
+}

@@ -1,0 +1,58 @@
+/* Custom styles for the menu drawer */
+.menu-drawer {
+    width: 100px; /* Adjust the width to your preference */
+    background-color: rgb(33, 42, 62) !important;
+  }
+
+  .ant-drawer-content-wrapper {
+    width: 250px !important; /* Change this value to your desired width */
+  }
+
+  .ant-drawer-close {
+    color:whitesmoke !important; 
+    background-color: transparent;
+    font-size: 20px; 
+    border: none; 
+  }
+
+  .ant-drawer-header {
+    border-bottom: 1px solid whitesmoke !important;
+  }
+
+  .menu-button {
+    background-color: rgb(57, 72, 103, 0.7);
+    border-style: 1px solid whitesmoke;
+    font-size: 20px;
+    border-radius: 5px;
+  }
+
+  .menu-button-icon {
+    color: whitesmoke;
+  }
+  
+  .menu-drawer-title {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 16px;
+    text-align: center;
+    color: whitesmoke;
+  }
+  
+  .menu-item {
+    padding: 12px 16px;
+    border-bottom: 1px solid whitesmoke !important;
+  }
+  
+  .menu-item:last-child {
+    border-bottom: none !important;
+  }
+  
+  .menu-item a {
+    text-decoration: none;
+    color: whitesmoke;
+  }
+  
+  .menu-item a:hover {
+    color: #1890ff;
+  }
+  
