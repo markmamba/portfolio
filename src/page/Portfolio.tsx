@@ -1,5 +1,5 @@
 import React, { useRef, useEffect, useState } from 'react';
-import { Anchor, Divider, Typography } from "antd";
+import { Anchor, Divider } from "antd";
 import Home from './sections/Home'
 import About from './sections/AboutMe';
 import Skills from './sections/Skills';
@@ -11,8 +11,6 @@ import '../styles/Portfolio-styles.css';
 import MenuDrawer from '../components/MenuDrawer';
 import Footer from '../page/sections/Footer';
 import Contacts from './sections/Contacts';
-
-const { Title } = Typography;
 
 const Portfolio: React.FC = () => {
     const divRef = useRef<HTMLDivElement>(null); // Add a useRef for the div element
