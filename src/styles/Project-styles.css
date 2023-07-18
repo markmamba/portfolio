@@ -79,6 +79,7 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
+    margin-bottom: 5%;
   }
 
   /* Add spacing between Carousel button and Card content */
@@ -99,6 +100,37 @@
 .card-content {
   padding: 16px;
   margin-bottom: 40px; /* Add bottom margin to create spacing */
+}
+
+@media screen and (max-width: 1440px) {
+  .project-container {
+    padding: 5% 10%; /* Adjust the padding as needed */
+  }
+
+  .card-content {
+    margin-bottom: 30px; /* Adjust the value as needed */
+  }
+
+  .custom-carousel .slick-slide,
+  .custom-carousel .slick-active,
+  .custom-carousel .slick-current {
+    height: 800px;
+  }
+
+  .project-card {
+    width: 90%; /* Adjust the width for mobile screens */
+    height: 600px;
+    box-shadow: 8px 10px 20px rgba(0, 0, 0, 0.5);
+  }
+
+  .project-title {
+    font-size: 53px !important;
+  }
+
+  .card-description {
+    -webkit-line-clamp: 4; 
+    margin-bottom: 5%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -128,7 +160,8 @@
   }
 
   .card-description {
-    -webkit-line-clamp: 3; /* Set the desired number of lines to display on mobile screens */
+    -webkit-line-clamp: 3;
+    margin-bottom: 5%;
   }
   
 }

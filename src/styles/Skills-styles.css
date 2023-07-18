@@ -42,8 +42,53 @@
     height: 150px;
 }
 
+.swift-icon {
+    width: 200px;
+    height: 150px;
+}
+
 
 @media screen and (max-width: 1440px) {
+    .skills-title-container {
+        padding: '3% 15%';
+    }
+
+    .skills-title-text {
+        font-size: 53px !important; 
+        text-align: center !important;
+    }
+
+    .skills-cards-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 50px;
+        margin-top: 10%;
+    }
+
+    .skills-cards-flex-container {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .skills-card-content-body {
+        width: 300px !important;
+        border: none;
+        box-shadow: 13px 20px 40px rgba(0, 0, 0, 0.5);
+        height: 200px;
+        text-align: center;
+    }
+
+    .skills-image-icon {
+        width: 100px;
+        height: 100px;
+    }
+
+    .swift-icon {
+        width: 150px;
+        height: 100px;
+    }
     
   }
 

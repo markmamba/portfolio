@@ -89,7 +89,63 @@
   color: white;
 }
 
+.experience-card-title {
+  font-size: 23px !important;
+  color: whitesmoke !important;
+  font-weight: 700;
+}
+
 @media screen and (max-width: 1440px) {
+  .experience-container {
+    padding-bottom: 10%;
+  }
+
+  .experience-card {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .experience-title-container {
+    text-align: left;
+    margin-bottom: 5%;
+    padding: '2% 10%';
+    width: 80%;
+  }
+
+  .experience-title {
+    font-size: 53px !important; 
+    text-align: left !important;
+  }
+
+  .experience-cards-container {
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 5px;
+  }
+
+  .transtech-logo {
+    width: 100%;
+    max-width: 150px;
+    margin: 0 auto;
+  }
+
+  .hivelo-logo {
+    width: 100%;
+    max-width: 120px;
+    margin: 0 auto;
+  }
+
+  .gruuw-logo {
+    width: 100%;
+    max-width: 100px;
+    margin: 0 auto;
+  }
+
+  .experience-card-title {
+    font-size: 18px !important;
+    color: whitesmoke !important;
+    font-weight: 700;
+  }
   
 }
 

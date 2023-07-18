@@ -108,6 +108,20 @@
   } */
 
 @media screen and (max-width: 1440px) {
+    .portfolio-container {
+        width: 100%;
+        background-color: rgb(33, 42, 62);
+    }
+
+    #Home {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .portfolio-anchor-container {
+        padding-left: 5%; 
+    }
+
     .portfolio-image-hero {
         position: absolute;
         top: 0;
@@ -124,25 +138,21 @@
         text-align: center;
         background: rgb(57, 72, 103);
     }
+
+    #Skills, #Projects, #Contact {
+        width: 100vw;
+        height: 100vh; 
+        text-align: center;
+    }
+
+    #Experience, #Services {
+        width: 100vw;
+        height: 100%; 
+    }
   }
 
 /* Media query for screens with a maximum width of 768px */
 @media screen and (max-width: 768px) {
-    #part-1 img {
-        width: 100%;
-        height: auto;
-    }
-
-    #part-1,
-    #part-2,
-    #part-3,
-    #part-4,
-    #part-5,
-    #part-6 {
-        width: 100%;
-        padding: 10% 0;
-    }
-
     .portfolio-container {
         width: 100%;
         background-color: rgb(33, 42, 62);
@@ -182,6 +192,51 @@
     }
 
     #Experience, #Services {
+        width: 100vw;
+        height: 100%; 
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .portfolio-container {
+        width: 100%;
+        background-color: rgb(33, 42, 62);
+    }
+
+    #Home {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .portfolio-anchor-container {
+        padding-left: 5%; 
+    }
+
+    .portfolio-image-hero {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 100vw;
+        object-fit: cover;
+        z-index: 0;
+        height: 108vh !important;
+    }
+
+    #About {
+        width: 100vw;
+        height: 100%;
+        text-align: center;
+        background: rgb(57, 72, 103);
+    }
+
+    #Skills, #Projects {
+        width: 100vw;
+        height: 100vh; 
+        text-align: center;
+    }
+
+    #Experience, #Services, #Contact {
         width: 100vw;
         height: 100%; 
     }

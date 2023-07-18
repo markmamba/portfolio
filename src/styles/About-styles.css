@@ -42,17 +42,25 @@
   }
 
   @media screen and (max-width: 1440px) {
+    .about-contents-container {
+      display: flex;
+      width: 75%;
+      margin: 0 auto;
+    }
+
     .about-title {
       padding: 5% 10%;
-      text-align: center;
       font-size: 53px !important; 
-      color: rgb(221, 230, 237);
     }
 
     .about-image {
       width: 100px;
       height: 100px;
       margin-bottom: 20px;
+    }
+
+    .about-text {
+      font-size: 14px;
     }
   
   }

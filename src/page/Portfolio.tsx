@@ -38,7 +38,7 @@ const Portfolio: React.FC = () => {
     useEffect(() => {
       // Function to detect if the screen width is smaller than 768px (mobile size)
       const handleResize = () => {
-        setIsMobile(window.innerWidth <= 1444);
+        setIsMobile(window.innerWidth <= 768);
       };
   
       handleResize();

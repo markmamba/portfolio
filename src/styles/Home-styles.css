@@ -51,7 +51,7 @@
     }
 
     .home-text-contents {
-        background-color: rgb(123, 143, 161, 0.9) !important;
+        background-color: rgb(123, 143, 161, 0.7) !important;
         border-radius: 10px;
         padding: 5%;
     }
@@ -65,6 +65,6 @@
         overflow-wrap: break-word; 
         word-wrap: break-word; 
         font-size: 12px !important; 
-        color: rgb(221, 230, 237);
+        color: rgb(221, 230, 237) !important;
     }
 }

@@ -56,9 +56,9 @@ const Experience: React.FC = () => {
           </div>}
         >
           <Title className="experience-card-title">
-            <span className="company-name">Hivelocity Inc.</span><br />
-            <span className="position">Junior Web Director/ Product Manager</span><br />
-            <span className="duration">(2021-10~2023~03)</span>
+            Hivelocity Inc.<br />
+            Junior Web Director/ Product Manager<br />
+            (2021-10~2023~03)
           </Title>
           <Text className="experience-card-text">
             As a Junior Web Director/Product Manager, I successfully promoted and managed product development
@@ -77,9 +77,9 @@ const Experience: React.FC = () => {
           </div>}
         >
           <Title className="experience-card-title">
-            <span className="company-name">Gruuw KK</span><br />
-            <span className="position">Software Developer</span><br />
-            <span className="duration">(2023-04~Present)</span>
+            Gruuw KK<br />
+            Software Developer<br />
+            (2023-04~Present)
           </Title>
           <Text className="experience-card-text">
             As a Fullstack Software Developer,

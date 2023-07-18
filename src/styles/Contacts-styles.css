@@ -84,8 +84,31 @@
 }
 
 @media screen and (max-width: 1440px) {
-    
-  }
+    .contact-title {
+        font-size: 53px !important;
+    }
+
+    .contact-image {
+        height: 250px;
+    }
+
+    .contact-card-title {
+        font-size: 25px !important;
+    }
+
+    .contact-position, .contact-card-text {
+        font-size: 16px;
+    }
+
+    .contact-icons-container {
+        gap: 25px;
+        margin-bottom: 2%;
+    }
+
+    .contact-card {
+        width: 80%;
+    }
+}
 
 /* Media query for screens with a maximum width of 768px */
 @media screen and (max-width: 768px) {

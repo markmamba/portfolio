@@ -58,6 +58,31 @@
   }
 
   @media screen and (max-width: 1440px) {
+    .work-container {
+      padding: 5% 10%;
+    }
+
+    .work-title-container {
+      padding: 5% 10%;
+      text-align: center;
+      width: 80%;
+    }
+
+    .work-title-text {
+      font-size: 53px !important;
+    }
+
+    .work-card-container {
+      flex-direction: column;
+      justify-content: center;
+      gap: 20px;
+      padding: 0 10px;
+      margin-bottom: 5%;
+    }
+
+    .work-card-title {
+      font-size: 25px !important; 
+    }
     
   }
 
