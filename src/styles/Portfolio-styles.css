@@ -61,10 +61,34 @@
     text-align: center;
 }
 
+/* Custom styles for ant-anchor component */
+.ant-anchor-link-title {
+    font-size: 20px;
+    color: whitesmoke !important;
+  }
+  
+  .ant-anchor-ink-ball {
+    background-color: rgb(247, 247, 247) !important;
+  }
+  
+  /* Additional custom styles for specific scenarios */
+  .custom-anchor .ant-anchor-link-title {
+    color: whitesmoke !important;
+  }
+  
+  .custom-anchor .ant-anchor-wrapper-horizontal::before {
+    border-bottom: none !important;
+  }
+  
+  .custom-anchor .ant-anchor-ink {
+    background-color: white !important;
+  }
+  
 
 
 
-.css-dev-only-do-not-override-12upa3x.ant-anchor-wrapper-horizontal::before {
+
+/* .css-dev-only-do-not-override-12upa3x.ant-anchor-wrapper-horizontal::before {
     border-bottom: none !important;
 }
 
@@ -87,7 +111,7 @@
 
 .custom-anchor .ant-anchor-ink-ball {
     background-color: 'rgb(247, 247, 247)';
-}
+} */
 
 /* @media screen and (min-width: 1441px) {
     .portfolio-image-hero {

@@ -67,19 +67,19 @@ const Portfolio: React.FC = () => {
                     <MenuDrawer onItemClick={handleAnchorItemClick} /> 
                 ) : ( // Show anchor on larger screens
                     <Anchor direction='horizontal' affix={true} className='custom-anchor'>
-                    <Anchor.Link href='#Home' title='Home' />
+                    <Anchor.Link className = "custom-anchor-title" href='#Home' title='Home' />
                     <span className='portfolio-span-space'></span>
-                    <Anchor.Link href='#About' title='About Me' />
+                    <Anchor.Link className = "custom-anchor-title" href='#About' title='About Me' />
                     <span className='portfolio-span-space'></span>
-                    <Anchor.Link href='#Skills' title='My Skills' />
+                    <Anchor.Link className = "custom-anchor-title" href='#Skills' title='My Skills' />
                     <span className='portfolio-span-space'></span>
-                    <Anchor.Link href='#Experience' title='Work Experience' />
+                    <Anchor.Link className = "custom-anchor-title" href='#Experience' title='Work Experience' />
                     <span className='portfolio-span-space'></span>
-                    <Anchor.Link href='#Services' title='My Work' />
+                    <Anchor.Link className = "custom-anchor-title" href='#Services' title='My Work' />
                     <span className='portfolio-span-space'></span>
-                    <Anchor.Link href='#Projects' title='Projects' />
+                    <Anchor.Link className = "custom-anchor-title" href='#Projects' title='Projects' />
                     <span className='portfolio-span-space'></span>
-                    <Anchor.Link href='#Contact' title='Contact' />
+                    <Anchor.Link className = "custom-anchor-title" href='#Contact' title='Contact' />
                     </Anchor>
                 )}
                 </div>
