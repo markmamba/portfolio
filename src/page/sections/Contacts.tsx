@@ -48,19 +48,19 @@ const Contacts: React.FC = () => {
                 </div>
 
                 <div className="contact-icons-container">
-                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                    <a href="https://twitter.com/hensonbautista" target="_blank" rel="noopener noreferrer">
                         <TwitterOutlined className="contact-icons" />
                     </a>
-                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.instagram.com/hensonbautista_/" target="_blank" rel="noopener noreferrer">
                         <InstagramOutlined className="contact-icons" />
                     </a>
-                    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.facebook.com/markbautista1708" target="_blank" rel="noopener noreferrer">
                         <FacebookOutlined className="contact-icons" />
                     </a>
-                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/mhbautista/" target="_blank" rel="noopener noreferrer">
                         <LinkedinOutlined className="contact-icons" />
                     </a>
-                    <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/markmamba" target="_blank" rel="noopener noreferrer">
                         <GithubOutlined className="contact-icons" />
                     </a>
                 </div>
