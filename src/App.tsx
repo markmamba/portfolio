@@ -8,7 +8,7 @@ function App() {
     <Router>
       <Routes>
         <Route
-          path="/"
+          path="/portfolio"
           element={
             <div className="app-container">
               {" "}

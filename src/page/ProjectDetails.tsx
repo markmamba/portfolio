@@ -51,7 +51,7 @@ const ProjectDetails: React.FC = () => {
       }
     }, 100);
     
-    navigate('/');
+    navigate('/portfolio');
   };
 
   return (
